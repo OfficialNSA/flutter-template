@@ -1,8 +1,8 @@
-class Demo {
+class Demo1 {
   String? id;
   String? name;
 
-  Demo({this.id, this.name});
+  Demo1({this.id, this.name});
 
   Map<String, dynamic> toJson() => {
         'id': id,
